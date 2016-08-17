@@ -15,6 +15,12 @@
 		924A03D31D62A57700F54B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924A03D11D62A57700F54B4E /* LaunchScreen.storyboard */; };
 		924A03DE1D62A57700F54B4E /* playerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924A03DD1D62A57700F54B4E /* playerTestTests.m */; };
 		924A03E91D62A57700F54B4E /* playerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924A03E81D62A57700F54B4E /* playerTestUITests.m */; };
+		924A03FE1D62FE6E00F54B4E /* WNPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924A03FD1D62FE6E00F54B4E /* WNPlayerController.m */; };
+		924A04011D63154700F54B4E /* 无音量 @2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A03FF1D63154700F54B4E /* 无音量 @2x.png */; };
+		924A04021D63154700F54B4E /* 音量@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A04001D63154700F54B4E /* 音量@2x.png */; };
+		924A04041D63156A00F54B4E /* 进度圆圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A04031D63156A00F54B4E /* 进度圆圈@2x.png */; };
+		924A04071D631E3A00F54B4E /* 关闭锁屏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A04051D631E3A00F54B4E /* 关闭锁屏@2x.png */; };
+		924A04081D631E3A00F54B4E /* 开启锁屏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 924A04061D631E3A00F54B4E /* 开启锁屏@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		924A03E41D62A57700F54B4E /* playerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		924A03E81D62A57700F54B4E /* playerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerTestUITests.m; sourceTree = "<group>"; };
 		924A03EA1D62A57700F54B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924A03FC1D62FE6E00F54B4E /* WNPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNPlayerController.h; sourceTree = "<group>"; };
+		924A03FD1D62FE6E00F54B4E /* WNPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNPlayerController.m; sourceTree = "<group>"; };
+		924A03FF1D63154700F54B4E /* 无音量 @2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无音量 @2x.png"; sourceTree = "<group>"; };
+		924A04001D63154700F54B4E /* 音量@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量@2x.png"; sourceTree = "<group>"; };
+		924A04031D63156A00F54B4E /* 进度圆圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进度圆圈@2x.png"; sourceTree = "<group>"; };
+		924A04051D631E3A00F54B4E /* 关闭锁屏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭锁屏@2x.png"; sourceTree = "<group>"; };
+		924A04061D631E3A00F54B4E /* 开启锁屏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开启锁屏@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,11 @@
 		924A03C21D62A57700F54B4E /* playerTest */ = {
 			isa = PBXGroup;
 			children = (
+				924A04051D631E3A00F54B4E /* 关闭锁屏@2x.png */,
+				924A04061D631E3A00F54B4E /* 开启锁屏@2x.png */,
+				924A04031D63156A00F54B4E /* 进度圆圈@2x.png */,
+				924A03FF1D63154700F54B4E /* 无音量 @2x.png */,
+				924A04001D63154700F54B4E /* 音量@2x.png */,
 				924A03C61D62A57700F54B4E /* AppDelegate.h */,
 				924A03C71D62A57700F54B4E /* AppDelegate.m */,
 				924A03C91D62A57700F54B4E /* ViewController.h */,
@@ -110,6 +128,8 @@
 				924A03D11D62A57700F54B4E /* LaunchScreen.storyboard */,
 				924A03D41D62A57700F54B4E /* Info.plist */,
 				924A03C31D62A57700F54B4E /* Supporting Files */,
+				924A03FC1D62FE6E00F54B4E /* WNPlayerController.h */,
+				924A03FD1D62FE6E00F54B4E /* WNPlayerController.m */,
 			);
 			path = playerTest;
 			sourceTree = "<group>";
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					924A03BF1D62A57700F54B4E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4DGQ3K7792;
 					};
 					924A03D81D62A57700F54B4E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,7 +266,12 @@
 			files = (
 				924A03D31D62A57700F54B4E /* LaunchScreen.storyboard in Resources */,
 				924A03D01D62A57700F54B4E /* Assets.xcassets in Resources */,
+				924A04071D631E3A00F54B4E /* 关闭锁屏@2x.png in Resources */,
+				924A04011D63154700F54B4E /* 无音量 @2x.png in Resources */,
+				924A04021D63154700F54B4E /* 音量@2x.png in Resources */,
 				924A03CE1D62A57700F54B4E /* Main.storyboard in Resources */,
+				924A04041D63156A00F54B4E /* 进度圆圈@2x.png in Resources */,
+				924A04081D631E3A00F54B4E /* 开启锁屏@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924A03FE1D62FE6E00F54B4E /* WNPlayerController.m in Sources */,
 				924A03CB1D62A57700F54B4E /* ViewController.m in Sources */,
 				924A03C81D62A57700F54B4E /* AppDelegate.m in Sources */,
 				924A03C51D62A57700F54B4E /* main.m in Sources */,
@@ -415,10 +442,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = playerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhenai.playerTest;
+				PRODUCT_BUNDLE_IDENTIFIER = zhenai.playerTest.yizhen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +457,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = playerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhenai.playerTest;
+				PRODUCT_BUNDLE_IDENTIFIER = zhenai.playerTest.yizhen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
